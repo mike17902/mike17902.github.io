@@ -1,0 +1,37 @@
+.header {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    z-index: 1;
+    position: relative;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.lists li {
+    list-style-type: none;
+    margin-right: 100px;
+    text-transform: capitalize;
+  }
+
+.lists li a {
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+  }
+
+
+.image-content {
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.image-content img {
+    max-width: 500px;
+    align-content: space-between;
+}
